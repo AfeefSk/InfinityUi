@@ -12,9 +12,9 @@ const Header = () => {
      backdrop-blur fixed px-3 p-2 sm:h-auto sm:w-full w-screen z-20 left-0 right-0 top-0  text-xl" >
         {/* dektop nav */}
         <div className="flex justify-between items-center ">
-        <div className="flex items-center space-x-8">
-        <div className="max-w-screen-xl flex items-center justify-between mx-auto sm:px-4 pb-2 pt-2 ">
-            <motion.div to="/" className="flex items-start p-3"
+        
+        <div className="flex items-center justify-between sm:px-4 pb-2 pt-2 ">
+            <motion.div to="/" className="flex p-3"
             whileHover={{ scale: 1.2, rotate: 2}}
             >
                 <img
@@ -58,7 +58,7 @@ const Header = () => {
 
             </div>
             
-            </div>
+            
         
         {/* desktop nav end */}
         <div className={`${open ? null : "hidden"} h-[12rem]`}>
